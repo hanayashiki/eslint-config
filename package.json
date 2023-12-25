@@ -1,0 +1,41 @@
+{
+  "name": "@chenyuwang/eslint-config",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "main": "./lib/index.js",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "author": "Chenyu Wang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanayashiki/eslint-config"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "tsup": "^6.7.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint-plugin-i": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-svg-jsx": "^1.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
