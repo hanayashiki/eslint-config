@@ -1,6 +1,6 @@
 {
   "name": "@chenyuwang/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "commonjs",
   "main": "./lib/index.js",
   "files": [
@@ -33,7 +33,7 @@
     "@typescript-eslint/parser": "^6.15.0",
     "eslint-plugin-i": "^2.29.1",
     "eslint-plugin-prettier": "^5.1.2",
-    "eslint-plugin-svg-jsx": "^1.2.2"
+    "eslint-plugin-react": "^7.33.2"
   },
   "publishConfig": {
     "access": "public"
